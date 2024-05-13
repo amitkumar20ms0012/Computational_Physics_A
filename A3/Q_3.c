@@ -26,7 +26,7 @@ int main() {
     double d = (x_max - x_min) / (n - 1);
 
     // Open file for writing
-    ft_data = fopen("fft_gsl_data.txt", "w");
+    ft_data = fopen("Q_3_fft_gsl_data.txt", "w");
 
     // Generate sample points and initialize arrays
     for (int i = 0; i < n; i++) {
